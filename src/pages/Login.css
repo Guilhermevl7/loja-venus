@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+  height: 540px;
+  background-color: rgb(235, 209, 209);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 350px;
+  height: 300px;
+  background: whitesmoke;
+  border-radius: 15px;
+  margin-top: -50px;
+  position: absolute;
+}
+h1,
+p {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+p {
+  margin-top: -20px;
+  font-size: small;
+}
+.inputbox {
+  text-align: center;
+  padding: 5px;
+}
+input,
+.botao {
+  width: 70%;
+  height: 40px;
+  border: solid 1px;
+  border-radius: 7px;
+}
+.botao {
+  margin-left: auto;
+  margin-top: 10px;
+  background: none;
+  background-color: rgb(240, 159, 159);
+}
+.botao:hover {
+  background-color: rosybrown;
+}
+h2 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 5px;
+}
+.botaoeditar {
+  border: none;
+  background: none;
+  color: blue;
+  padding: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.botaoexcluir {
+  border: none;
+  background: none;
+  color: red;
+  padding: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.containerusuarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.boxusuarios {
+  width: 350px;
+  min-height: 120px;
+  max-height: 0px;
+  overflow-y: auto;
+  background: whitesmoke;
+  border-radius: 15px;
+  margin-top: 190px;
+}
+li {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+}
